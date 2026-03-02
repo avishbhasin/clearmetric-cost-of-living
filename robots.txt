@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avishbhasin.github.io/clearmetric-cost-of-living/sitemap.xml
