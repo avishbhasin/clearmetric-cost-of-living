@@ -282,13 +282,13 @@ st.markdown("""
 <div class="cta-box">
     <h3 style="color: white; margin: 0 0 8px 0;">Want the Full Excel Spreadsheet?</h3>
     <p style="margin: 0 0 16px 0;">
-        Get the <strong>ClearMetric Cost of Living Comparator</strong> — $11.99<br>
+        Get the <strong>ClearMetric Cost of Living Comparator</strong> — $9.99<br>
         ✓ City Comparator — pick 2 cities, see equivalent salary + category breakdown<br>
         ✓ Multi-City Ranking — all 30 cities ranked by index<br>
         ✓ How To Use guide<br>
     </p>
-    <a href="https://clearmetric.gumroad.com/l/cost-of-living-comparator" target="_blank">
-        Get It on Gumroad — $11.99 →
+    <a href="https://clearmetric.gumroad.com/l/cost-of-living" target="_blank">
+        Get It on Gumroad — $9.99 →
     </a>
 </div>
 """, unsafe_allow_html=True)
@@ -312,7 +312,7 @@ with cx3:
     st.markdown("""
     **🚗 Car Affordability** — $9.99
     20/4/10 rule, total cost of ownership.
-    [Get it →](https://clearmetric.gumroad.com/l/car-affordability-calculator)
+    [Get it →](https://clearmetric.gumroad.com/l/car-affordability)
     """)
 
 # Footer
