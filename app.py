@@ -64,6 +64,7 @@ st.markdown("---")
 # ---------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("## Your Details")
+    st.button("🔄 Update Results", use_container_width=True)
 
     current_city = st.selectbox(
         "Current City",
@@ -86,7 +87,6 @@ with st.sidebar:
         min_value=1_000,
         max_value=2_000_000,
         step=5_000,
-        format="%d",
     )
     household_size = st.number_input(
         "Household Size",
@@ -94,7 +94,6 @@ with st.sidebar:
         min_value=1,
         max_value=6,
         step=1,
-        format="%d",
     )
     lifestyle = st.selectbox(
         "Lifestyle",
