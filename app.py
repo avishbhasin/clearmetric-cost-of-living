@@ -221,8 +221,9 @@ st.plotly_chart(fig_radar, use_container_width=True)
 # ---------------------------------------------------------------------------
 st.markdown("## Category Index Comparison (NYC = 100)")
 
+bar_cats = [c.replace("_", " ").title() for c in CATEGORIES]
 df_cat = pd.DataFrame({
-    "Category": radar_cats,
+    "Category": bar_cats,
     current_city: [curr[c] for c in CATEGORIES],
     target_city: [targ[c] for c in CATEGORIES],
 })
